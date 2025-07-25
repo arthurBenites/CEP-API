@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o CEP"
+        android:inputType="number"
+        android:maxLength="8"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar CEP"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Logradouro: " />
+
+    <TextView
+        android:id="@+id/textViewBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Bairro: " />
+
+    <TextView
+        android:id="@+id/textViewLocalidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Localidade: " />
+
+    <TextView
+        android:id="@+id/textViewUF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="UF: " />
+
+</LinearLayout>
